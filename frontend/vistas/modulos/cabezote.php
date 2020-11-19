@@ -162,6 +162,7 @@ HEADER
 			<?php
 
 				$item = null;
+				/**/$item = null;
 				$valor = null;
 
 				$categorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
